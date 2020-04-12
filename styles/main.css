@@ -20,8 +20,13 @@ body{
     margin-right: 60px;
 }
 
+.nav_bar{
+    text-decoration: none;
+}
+
 ul#nav_list{
     list-style: none;
+    color: #3bc6ff;
 }
 
 ul#nav_list li{
@@ -29,12 +34,12 @@ ul#nav_list li{
     font-weight: 500;
     font-size: 16px;
     padding: 0px 20px;
+    text-decoration: none;        
 }
 
 #background_image{
     background-image: url("../img/billboard.jpg");
-    background-color: red;
-    height: 100vh;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -42,16 +47,149 @@ ul#nav_list li{
 .cta{
     display: flex;
     justify-content: space-between;
-    margin-left: 5em;
-    margin-right: 5em;
+    background-color: rgba(248,248,248,0.7);
+    margin-top: -80px;
+    padding: 12px;
+    align-items: center;
     
 }
 
+
 .cta #cta_link{
     background-color: skyblue ;
+    text-decoration: none;
     color: white;
     padding: 20px;
+    
+}
+
+.services_text{
+    text-align: center;
+    padding-top: 5em;
+    color: #666060;
+    font-family: serif;
+}
+
+#services_seprator{
+    text-align: center;
+}
+
+#services_list{
+    display: flex;
+    padding-bottom: 5em;
+    padding: left 14em;
+}
+
+#services_img{
+    width:42px;
+    height: 62px;
+}
+
+.services_items_content{
+    display: flex;
+    flex-direction: column;
+}
+
+li.services_items{
+    list-style: none;
 }
 
 
 
+.recent_work #img_list{
+    list-style: none;
+    display:flex;
+    width: 100%;
+    padding: 0%;  
+}
+
+#img_list li{
+    width: 20%;
+}
+
+#img_list li img{
+    width:100%;
+}
+
+
+
+.testimonials_wrapper{
+    background-color: rgba(248,248,248,0.7);
+}
+
+.testimonials_text{
+    font-size: 2em;
+    padding: 2.5em;
+    color: rgb(98, 97, 97);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+} 
+
+#testimonials_list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0% 20%;
+}
+
+.client_image{
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer{
+    background-color: #353535;
+    color: white;
+}
+.footer_widget{
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    width: 100vw;
+    
+}
+
+.Location{
+    width: 25%;
+
+}
+
+.Company{
+    width: 25%;
+
+}
+.Company #comp_list{
+    list-style: none;
+    
+    text-align: center;
+}
+
+#comp_list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.Support{
+    width: 25%;
+}
+
+#sup_list{
+    list-style: none;
+    text-align: center;
+}
+#sup_list li a{
+    
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.ARK_Studio{
+    width: 25%;
+
+}
+
+.rights{
+    text-align: center;
+}

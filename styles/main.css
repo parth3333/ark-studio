@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: rgba(248,248,248,0.7);
 }
 
 .transparent_nav{
@@ -20,8 +21,9 @@ body{
     margin-right: 60px;
 }
 
-.nav_bar{
+#nav_item_1,#nav_item_2,#nav_item_3,#nav_item_4{
     text-decoration: none;
+    color: black;
 }
 
 ul#nav_list{
@@ -34,7 +36,14 @@ ul#nav_list li{
     font-weight: 500;
     font-size: 16px;
     padding: 0px 20px;
-    text-decoration: none;        
+    text-decoration: none;
+    list-style: none;        
+}
+
+ul#img_list li:hover{
+    padding:15px;
+    margin: 15px;
+    border-radius: 50px;
 }
 
 #background_image{
@@ -59,8 +68,16 @@ ul#nav_list li{
     background-color: skyblue ;
     text-decoration: none;
     color: white;
-    padding: 20px;
-    
+    padding: 20px;    
+}
+
+.cta #cta_link:hover{
+    background-color: chartreuse;      
+}
+
+.services_wrapper{
+    margin: 0px auto;
+    width: 83%;
 }
 
 .services_text{
@@ -77,12 +94,16 @@ ul#nav_list li{
 #services_list{
     display: flex;
     padding-bottom: 5em;
-    padding: left 14em;
+    color: #666060;
+    width: auto;
+    justify-content: space-around;
+
 }
 
 #services_img{
     width:42px;
     height: 62px;
+    padding-left: 5em;
 }
 
 .services_items_content{
@@ -115,11 +136,12 @@ li.services_items{
 
 .testimonials_wrapper{
     background-color: rgba(248,248,248,0.7);
+    margin: 10em 0em;
 }
 
 .testimonials_text{
     font-size: 2em;
-    padding: 2.5em;
+    padding-bottom: 2.5em;
     color: rgb(98, 97, 97);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -127,9 +149,18 @@ li.services_items{
 
 #testimonials_list{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style: none;
-    padding: 0% 20%;
+    margin: 0px auto;
+    width:73%;
+}
+
+#testimonial_align{
+    text-align: center;
+}
+
+#testimonials_list li{
+    width: 28%;
 }
 
 .client_image{
@@ -145,7 +176,7 @@ li.services_items{
     display: flex;
     height: auto;
     justify-content: space-evenly;
-    width: 100vw;
+    width: 100%;
     
 }
 
@@ -184,7 +215,7 @@ li.services_items{
     
 }
 
-
+.f
 .ARK_Studio{
     width: 25%;
 
@@ -192,4 +223,28 @@ li.services_items{
 
 .rights{
     text-align: center;
+}
+
+
+.cta_footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(248,248,248,0.2);
+    margin-bottom: -80px;
+    padding: 12px;
+    margin-bottom: 20px;
+    
+    align-items: center;
+}
+
+
+.cta_footer #cta_lin{
+    background-color: skyblue ;
+    text-decoration: none;
+    color: white;
+    padding: 20px;    
+}
+
+.cta_footer #cta_lin:hover{
+    background-color: chartreuse;      
 }
